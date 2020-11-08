@@ -1,4 +1,4 @@
-# doctr_app_original
+# doctor_app_original
  
 ![WhatsApp Image 2020-11-08 at 11 42 50 AM](https://user-images.githubusercontent.com/68279005/98459598-5d712400-21c2-11eb-9c23-b0c024dc2315.jpeg)
 ![WhatsApp Image 2020-11-08 at 11 43 43 AM](https://user-images.githubusercontent.com/68279005/98459600-6104ab00-21c2-11eb-93bf-c0bff36df31f.jpeg)
