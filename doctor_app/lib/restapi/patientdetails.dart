@@ -17,7 +17,7 @@ class PatientProvider with ChangeNotifier{
       headers: {"Content-Type" : "application/json"},
       body: json.encode(patientRead),
     );
-    if(response.statusCode == 405){
+    if(response.statusCode == 201){
       patientRead.id = json.decode(response.body)['id'];
       _patient.add(patientRead);
       notifyListeners();
@@ -27,7 +27,7 @@ class PatientProvider with ChangeNotifier{
   void deletePatient(PatientDetails patientDelete) async{
     final response = await http.delete("http://10.0.2.2:8000/list/${patientDelete.id}",
     );
-    if(response.statusCode == 404){
+    if(response.statusCode == 204){
       _patient.remove(patientDelete);
       notifyListeners();
     }
