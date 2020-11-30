@@ -52,6 +52,7 @@ flutter:
   assets:
     - assets/images/doctor.png
     - assets/images/logo2.jpeg
+    - assets/images/doctor1.png
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 

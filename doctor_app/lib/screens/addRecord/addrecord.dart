@@ -38,7 +38,7 @@ class _addRecordViewState extends State<addRecordView> {
            Padding(
              padding: const EdgeInsets.only(left: 20,top: 270),
              child: new Image.asset(
-              'assets/images/doctor.png',
+              'assets/images/doctor1.png',
               width: 350,
               height: 400,
               fit: BoxFit.contain,

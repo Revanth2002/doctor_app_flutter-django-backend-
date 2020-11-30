@@ -1,6 +1,4 @@
-import 'package:doctor_app/models/patientdetailsmodel.dart';
 import 'package:doctor_app/restapi/patientdetails.dart';
-import 'package:doctor_app/screens/homescreen/homescreen.dart';
 import 'package:doctor_app/screens/loginscreen/loginscreen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
